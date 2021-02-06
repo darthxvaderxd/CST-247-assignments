@@ -1,0 +1,36 @@
+﻿
+@model Tuple<List<activity3part1.Models.CustomerModel>, activity3part1.Models.CustomerModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @Html.Label("Please select a customer")
+        @using (Html.BeginForm("OnSelectCustomer", "Customer", FormMethod.Post, "myform"))
+        {
+        <div>
+            @foreach (var customer in Model.Item1.Select((value, index) => new { index, value }))
+            {
+                @Html.RadioButton("ID", customer.index, customer.value.ID == Model.Item2.ID, new { onchange = "this.form.submit();" })
+                @:&nbsp;
+                @Html.Label(customer.value.Name)
+                <br />
+            }
+        </div>
+        }
+
+        <div id="customerInfo">
+            @Html.Partial("_CustomerDetails", Model.Item2)
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+﻿
+@model Tuple<List<activity3part1.Models.CustomerModel>, activity3part1.Models.CustomerModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{ AjaxOptions ajaxOptions = new AjaxOptions { HttpMethod = "POST", InsertionMode = InsertionMode.Replace, UpdateTargetId = "customer" , OnSuccess = "ajaxSuccess" }; }
+
+
+
+<div>
+    @Html.Label("Please select a customer")
+    @using (Ajax.BeginForm("OnSelectCustomer", "Customer", ajaxOptions))
+    {
+        <div>
+            @foreach (var customer in Model.Item1.Select((value, index) => new { index, value }))
+            {
+                @Html.RadioButton("ID", customer.index, customer.value.ID == Model.Item2.ID, new { onchange = "$('#form0').trigger('submit')" })
+                @:&nbsp;
+                @Html.Label(customer.value.Name)
+                <br />
+            }
+        </div>
+    }
+
+    <div id="customer">
+        @Html.Partial("_CustomerDetails", Model.Item2)
+    </div>
+
+    <script>
+        function ajaxSuccess() {
+            const id = $('#ID:checked').val();
+            $.post('@Url.Action("GetMoreInfo", "Customer")', { ID: id }, function (data) { alert(data); });
+        }
+    </script>
+</div>
