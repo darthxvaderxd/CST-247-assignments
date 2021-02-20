@@ -20,3 +20,5 @@ F:\school_code\assignments\Activiity4\Activity4Part2\HelloWorldService\bin\Syste
 F:\school_code\assignments\Activiity4\Activity4Part2\HelloWorldService\bin\System.Web.Razor.xml
 F:\school_code\assignments\Activiity4\Activity4Part2\HelloWorldService\bin\System.Web.WebPages.Deployment.xml
 F:\school_code\assignments\Activiity4\Activity4Part2\HelloWorldService\obj\Debug\HelloWorldService.csproj.CopyComplete
+F:\school_code\assignments\Activiity4\Activity4Part2\HelloWorldService\bin\Newtonsoft.Json.dll
+F:\school_code\assignments\Activiity4\Activity4Part2\HelloWorldService\bin\Newtonsoft.Json.xml

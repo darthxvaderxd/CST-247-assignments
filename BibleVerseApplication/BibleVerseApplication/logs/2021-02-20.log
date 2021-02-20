@@ -1,0 +1,534 @@
+2021-02-20 11:27:51.5724 INFO BibleVerseController Index() called
+2021-02-20 11:27:57.9100 INFO BibleVerseController CreateVerse() started
+2021-02-20 11:28:03.4689 INFO BibleVerseController CreateVerse() started
+2021-02-20 11:31:15.5243 INFO BibleVerseController Index() called
+2021-02-20 11:31:26.1634 INFO BibleVerseController CreateVerse() started
+2021-02-20 11:39:01.2735 INFO BibleVerseController Index() called
+2021-02-20 11:39:11.6877 INFO BibleVerseController CreateVerse() started
+2021-02-20 11:39:11.6877 DEBUG Verse Testament => New
+2021-02-20 11:39:11.6901 DEBUG Verse Book => John
+2021-02-20 11:39:11.6901 DEBUG Verse Chapter => 3
+2021-02-20 11:39:11.6901 DEBUG Verse Verse => 16
+2021-02-20 11:39:11.6901 DEBUG Verse Text =>  For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.
+2021-02-20 11:39:11.6901 INFO BibleVerseDAO AddVerse() started
+2021-02-20 11:39:13.3565 ERROR BibleVerseDAO AddVerse() ERROR => Invalid column name 'testament'.
+2021-02-20 11:39:13.3565 INFO BibleVerseDAO AddVerse() complete
+2021-02-20 11:39:13.3565 INFO BibleVerseController CreateVerse() ended
+2021-02-20 11:42:00.2986 INFO BibleVerseController Index() called
+2021-02-20 11:42:07.6382 INFO BibleVerseController CreateVerse() started
+2021-02-20 11:42:07.6382 DEBUG Verse Testament => New
+2021-02-20 11:42:07.6382 DEBUG Verse Book => John
+2021-02-20 11:42:07.6382 DEBUG Verse Chapter => 3
+2021-02-20 11:42:07.6382 DEBUG Verse Verse => 16
+2021-02-20 11:42:07.6432 DEBUG Verse Text =>  For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.
+2021-02-20 11:42:07.6432 INFO BibleVerseDAO AddVerse() started
+2021-02-20 11:42:08.7007 ERROR BibleVerseDAO AddVerse() ERROR => Cannot insert the value NULL into column 'id', table 'BibleVerseRW.dbo.verse'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2021-02-20 11:42:08.7007 INFO BibleVerseDAO AddVerse() complete
+2021-02-20 11:42:08.7007 INFO BibleVerseController CreateVerse() ended
+2021-02-20 11:43:26.6064 INFO BibleVerseController Index() called
+2021-02-20 11:43:34.4040 INFO BibleVerseController CreateVerse() started
+2021-02-20 11:43:34.4040 DEBUG Verse Testament => New
+2021-02-20 11:43:34.4040 DEBUG Verse Book => John
+2021-02-20 11:43:34.4040 DEBUG Verse Chapter => 3
+2021-02-20 11:43:34.4040 DEBUG Verse Verse => 16
+2021-02-20 11:43:34.4095 DEBUG Verse Text =>  For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.
+2021-02-20 11:43:34.4095 INFO BibleVerseDAO AddVerse() started
+2021-02-20 11:43:35.4499 INFO BibleVerseDAO AddVerse() complete
+2021-02-20 11:43:35.4499 INFO BibleVerseController CreateVerse() ended
+2021-02-20 11:57:40.2177 INFO BibleVerseController Index() called
+2021-02-20 11:58:01.7244 INFO BibleVerseController CreateVerse() started
+2021-02-20 11:58:01.7244 DEBUG Verse Testament => New
+2021-02-20 11:58:01.7244 DEBUG Verse Book => John
+2021-02-20 11:58:01.7244 DEBUG Verse Chapter => 3
+2021-02-20 11:58:01.7244 DEBUG Verse Verse => 16
+2021-02-20 11:58:01.7244 DEBUG Verse Text =>  For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.
+2021-02-20 11:58:01.7244 INFO VerseService AddVerse() started
+2021-02-20 11:58:01.7244 INFO VerseService AddVerse() Verifying the verse does not already exist
+2021-02-20 11:58:01.7244 INFO BibleVerseDAO Search() started
+2021-02-20 11:58:02.7563 INFO BibleVerseDAO Search() complete
+2021-02-20 11:58:02.7563 INFO VerseService AddVerse() verse was already in database
+2021-02-20 11:58:02.7563 INFO VerseService AddVerse() stopped
+2021-02-20 11:58:02.7563 INFO BibleVerseController CreateVerse() ended
+2021-02-20 11:59:37.1128 INFO BibleVerseController Index() called
+2021-02-20 12:00:14.8191 INFO BibleVerseController CreateVerse() started
+2021-02-20 12:00:14.8191 DEBUG Verse Testament => New
+2021-02-20 12:00:14.8191 DEBUG Verse Book => John
+2021-02-20 12:00:14.8191 DEBUG Verse Chapter => 3
+2021-02-20 12:00:14.8191 DEBUG Verse Verse => 17
+2021-02-20 12:00:14.8191 DEBUG Verse Text => For God did not send his Son into the world to condemn the world, but to save the world through him.
+2021-02-20 12:00:14.8191 INFO VerseService AddVerse() started
+2021-02-20 12:00:14.8191 INFO VerseService AddVerse() Verifying the verse does not already exist
+2021-02-20 12:00:14.8306 INFO BibleVerseDAO Search() started
+2021-02-20 12:00:15.8473 INFO BibleVerseDAO Search() complete
+2021-02-20 12:00:15.8473 INFO VerseService AddVerse() verse is not in database
+2021-02-20 12:00:15.8473 INFO BibleVerseDAO AddVerse() started
+2021-02-20 12:00:15.8473 INFO BibleVerseDAO AddVerse() complete
+2021-02-20 12:00:15.8473 INFO VerseService AddVerse() stopped
+2021-02-20 12:00:15.8473 INFO BibleVerseController CreateVerse() ended
+2021-02-20 12:00:17.7733 INFO BibleVerseController Index() called
+2021-02-20 12:00:31.4603 INFO BibleVerseController CreateVerse() started
+2021-02-20 12:00:31.4603 DEBUG Verse Testament => New
+2021-02-20 12:00:31.4603 DEBUG Verse Book => John
+2021-02-20 12:00:31.4603 DEBUG Verse Chapter => 3
+2021-02-20 12:00:31.4603 DEBUG Verse Verse => 18
+2021-02-20 12:00:31.4603 DEBUG Verse Text => Whoever believes in him is not condemned, but whoever does not believe stands condemned already because they have not believed in the name of God’s one and only Son.
+2021-02-20 12:00:31.4603 INFO VerseService AddVerse() started
+2021-02-20 12:00:31.4603 INFO VerseService AddVerse() Verifying the verse does not already exist
+2021-02-20 12:00:31.4603 INFO BibleVerseDAO Search() started
+2021-02-20 12:00:31.4603 INFO BibleVerseDAO Search() complete
+2021-02-20 12:00:31.4718 INFO VerseService AddVerse() verse is not in database
+2021-02-20 12:00:31.4718 INFO BibleVerseDAO AddVerse() started
+2021-02-20 12:00:31.4718 INFO BibleVerseDAO AddVerse() complete
+2021-02-20 12:00:31.4718 INFO VerseService AddVerse() stopped
+2021-02-20 12:00:31.4718 INFO BibleVerseController CreateVerse() ended
+2021-02-20 12:32:24.0773 INFO BibleVerseController Index() called
+2021-02-20 12:35:14.0129 INFO BibleVerseController Index() called
+2021-02-20 12:35:21.3694 INFO BibleVerseController Search()
+2021-02-20 12:35:48.5556 INFO BibleVerseController Index() called
+2021-02-20 12:35:57.5882 INFO BibleVerseController Search()
+2021-02-20 12:37:00.8258 INFO BibleVerseController Search() started
+2021-02-20 12:37:00.8278 DEBUG Verse Testament => New
+2021-02-20 12:37:00.8278 DEBUG Verse Book => John
+2021-02-20 12:37:00.8278 DEBUG Verse Chapter => 3
+2021-02-20 12:37:00.8278 DEBUG Verse Verse => 16
+2021-02-20 12:37:00.8278 INFO VerseService SearchVerse() started
+2021-02-20 12:37:00.8278 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 12:37:00.8278 INFO BibleVerseDAO Search() started
+2021-02-20 12:37:02.4487 INFO BibleVerseDAO Search() complete
+2021-02-20 12:37:02.4487 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 12:37:02.4487 INFO VerseService SearchVerse() stopped
+2021-02-20 12:37:02.4517 INFO BibleVerseController Search() ended
+2021-02-20 12:37:56.7719 INFO BibleVerseController Search()
+2021-02-20 12:38:02.0723 INFO BibleVerseController Search() started
+2021-02-20 12:38:02.0723 DEBUG Verse Testament => New
+2021-02-20 12:38:02.0723 DEBUG Verse Book => John
+2021-02-20 12:38:02.0723 DEBUG Verse Chapter => 3
+2021-02-20 12:38:02.0773 DEBUG Verse Verse => Null
+2021-02-20 12:38:02.0773 INFO VerseService SearchVerse() started
+2021-02-20 12:38:02.0773 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 12:38:02.0973 ERROR VerseService SearchVerse() error => Value cannot be null.
+Parameter name: String
+2021-02-20 12:38:02.0973 INFO VerseService SearchVerse() stopped
+2021-02-20 12:38:02.0973 INFO BibleVerseController Search() ended
+2021-02-20 12:40:15.3635 INFO BibleVerseController Search()
+2021-02-20 12:40:26.4426 INFO BibleVerseController Search() started
+2021-02-20 12:40:26.4426 DEBUG Verse Testament => New
+2021-02-20 12:40:26.4426 DEBUG Verse Book => John
+2021-02-20 12:40:26.4426 DEBUG Verse Chapter => 3
+2021-02-20 12:40:26.4426 DEBUG Verse Verse => Null
+2021-02-20 12:40:26.4426 INFO VerseService SearchVerse() started
+2021-02-20 12:40:26.4426 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 12:40:26.4686 ERROR VerseService SearchVerse() error => Value cannot be null.
+Parameter name: String
+2021-02-20 12:40:26.4686 INFO VerseService SearchVerse() stopped
+2021-02-20 12:40:26.4686 INFO BibleVerseController Search() ended
+2021-02-20 12:42:43.2136 INFO BibleVerseController Index() called
+2021-02-20 12:42:48.5092 INFO BibleVerseController Search()
+2021-02-20 12:42:51.4103 INFO BibleVerseController Search() started
+2021-02-20 12:42:51.4103 DEBUG Verse Testament => New
+2021-02-20 12:42:51.4103 DEBUG Verse Book => John
+2021-02-20 12:42:51.4103 DEBUG Verse Chapter => 3
+2021-02-20 12:42:51.4103 DEBUG Verse Verse => Null
+2021-02-20 12:42:51.4103 INFO VerseService SearchVerse() started
+2021-02-20 12:42:51.4103 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 12:42:51.4103 INFO BibleVerseDAO Search() started
+2021-02-20 12:42:52.9854 INFO BibleVerseDAO Search() complete
+2021-02-20 12:42:52.9854 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 12:42:52.9854 INFO VerseService SearchVerse() stopped
+2021-02-20 12:42:52.9854 INFO BibleVerseController Search() ended
+2021-02-20 12:45:02.6618 INFO BibleVerseController Search() started
+2021-02-20 12:45:02.6618 DEBUG Verse Testament => New
+2021-02-20 12:45:02.6618 DEBUG Verse Book => John
+2021-02-20 12:45:02.6618 DEBUG Verse Chapter => 3
+2021-02-20 12:45:02.6618 DEBUG Verse Verse => Null
+2021-02-20 12:45:02.6618 INFO VerseService SearchVerse() started
+2021-02-20 12:45:02.6618 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 12:45:02.6618 INFO BibleVerseDAO Search() started
+2021-02-20 12:45:02.6703 INFO BibleVerseDAO Search() complete
+2021-02-20 12:45:02.6703 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 12:45:02.6703 INFO VerseService SearchVerse() stopped
+2021-02-20 12:45:02.6703 INFO BibleVerseController Search() ended
+2021-02-20 12:45:35.4240 INFO BibleVerseController Search() started
+2021-02-20 12:45:35.4240 DEBUG Verse Testament => New
+2021-02-20 12:45:35.4240 DEBUG Verse Book => John
+2021-02-20 12:45:35.4240 DEBUG Verse Chapter => 3
+2021-02-20 12:45:35.4240 DEBUG Verse Verse => Null
+2021-02-20 12:45:35.4240 INFO VerseService SearchVerse() started
+2021-02-20 12:45:35.4240 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 12:45:35.4240 INFO BibleVerseDAO Search() started
+2021-02-20 12:45:35.4240 INFO BibleVerseDAO Search() complete
+2021-02-20 12:45:35.4240 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 12:45:35.4240 INFO VerseService SearchVerse() stopped
+2021-02-20 12:45:35.4240 INFO BibleVerseController Search() ended
+2021-02-20 13:01:38.5491 INFO BibleVerseController Index() called
+2021-02-20 13:02:26.2671 INFO BibleVerseController Index() called
+2021-02-20 13:02:55.6690 INFO BibleVerseController Index() called
+2021-02-20 13:04:20.9489 INFO BibleVerseController Index() called
+2021-02-20 13:04:29.5221 INFO BibleVerseController Search()
+2021-02-20 13:04:31.8271 INFO BibleVerseController Index() called
+2021-02-20 13:05:22.8086 INFO BibleVerseController Index() called
+2021-02-20 13:05:26.2889 INFO BibleVerseController Search()
+2021-02-20 13:05:34.0659 INFO BibleVerseController Search()
+2021-02-20 13:05:35.8406 INFO BibleVerseController Index() called
+2021-02-20 13:05:37.2843 INFO BibleVerseController Search()
+2021-02-20 13:05:43.0969 INFO BibleVerseController Search() started
+2021-02-20 13:05:43.0969 DEBUG Verse Testament => New
+2021-02-20 13:05:43.0969 DEBUG Verse Book => John
+2021-02-20 13:05:43.0969 DEBUG Verse Chapter => 3
+2021-02-20 13:05:43.0969 DEBUG Verse Verse => 16
+2021-02-20 13:05:43.0969 INFO VerseService SearchVerse() started
+2021-02-20 13:05:43.0969 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:05:43.0969 INFO BibleVerseDAO Search() started
+2021-02-20 13:05:44.8249 INFO BibleVerseDAO Search() complete
+2021-02-20 13:05:44.8249 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:05:44.8274 INFO VerseService SearchVerse() stopped
+2021-02-20 13:05:44.8274 INFO BibleVerseController Search() ended
+2021-02-20 13:05:48.3634 INFO BibleVerseController Index() called
+2021-02-20 13:10:18.0461 INFO BibleVerseController Index() called
+2021-02-20 13:10:29.2103 INFO BibleVerseController Index() called
+2021-02-20 13:10:30.1308 INFO BibleVerseController Index() called
+2021-02-20 13:10:31.9428 INFO BibleVerseController Index() called
+2021-02-20 13:11:40.5763 INFO BibleVerseController Index() called
+2021-02-20 13:12:10.3849 INFO BibleVerseController Search()
+2021-02-20 13:12:13.1793 INFO BibleVerseController Index() called
+2021-02-20 13:13:02.7635 INFO BibleVerseController Search()
+2021-02-20 13:13:05.7491 INFO BibleVerseController Search()
+2021-02-20 13:13:06.6323 INFO BibleVerseController Index() called
+2021-02-20 13:13:07.8418 INFO BibleVerseController Search()
+2021-02-20 13:13:11.5218 INFO BibleVerseController Search() started
+2021-02-20 13:13:11.5218 DEBUG Verse Testament => New
+2021-02-20 13:13:11.5218 DEBUG Verse Book => John
+2021-02-20 13:13:11.5218 DEBUG Verse Chapter => 3
+2021-02-20 13:13:11.5218 DEBUG Verse Verse => 16
+2021-02-20 13:13:11.5218 INFO VerseService SearchVerse() started
+2021-02-20 13:13:11.5303 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:13:11.5303 INFO BibleVerseDAO Search() started
+2021-02-20 13:13:12.5645 INFO BibleVerseDAO Search() complete
+2021-02-20 13:13:12.5645 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:13:12.5645 INFO VerseService SearchVerse() stopped
+2021-02-20 13:13:12.5645 INFO BibleVerseController Search() ended
+2021-02-20 13:13:14.1749 INFO BibleVerseController Index() called
+2021-02-20 13:13:18.9837 INFO BibleVerseController CreateVerse() started
+2021-02-20 13:13:18.9837 DEBUG Verse Testament => New
+2021-02-20 13:13:18.9837 DEBUG Verse Book => John
+2021-02-20 13:13:18.9837 DEBUG Verse Chapter => 3
+2021-02-20 13:13:18.9837 DEBUG Verse Verse => 16
+2021-02-20 13:13:18.9837 DEBUG Verse Text => k
+2021-02-20 13:13:18.9837 INFO VerseService AddVerse() started
+2021-02-20 13:13:18.9837 INFO VerseService AddVerse() Verifying the verse does not already exist
+2021-02-20 13:13:18.9837 INFO BibleVerseDAO Search() started
+2021-02-20 13:13:18.9837 INFO BibleVerseDAO Search() complete
+2021-02-20 13:13:18.9837 INFO VerseService AddVerse() verse was already in database
+2021-02-20 13:13:18.9837 INFO VerseService AddVerse() stopped
+2021-02-20 13:13:18.9992 INFO BibleVerseController CreateVerse() ended
+2021-02-20 13:13:32.7088 INFO BibleVerseController Search()
+2021-02-20 13:23:17.1728 INFO BibleVerseController Index() called
+2021-02-20 13:23:27.8069 INFO BibleVerseController Search()
+2021-02-20 13:23:30.8736 INFO BibleVerseController Search() started
+2021-02-20 13:23:30.8736 DEBUG Verse Testament => New
+2021-02-20 13:23:30.8736 DEBUG Verse Book => John
+2021-02-20 13:23:30.8736 DEBUG Verse Chapter => 3
+2021-02-20 13:23:30.8736 DEBUG Verse Verse => 16
+2021-02-20 13:23:30.8736 INFO VerseService SearchVerse() started
+2021-02-20 13:23:30.8736 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:23:30.8736 INFO BibleVerseDAO Search() started
+2021-02-20 13:23:32.4749 INFO BibleVerseDAO Search() complete
+2021-02-20 13:23:32.4749 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:23:32.4749 INFO VerseService SearchVerse() stopped
+2021-02-20 13:23:32.4749 INFO BibleVerseController Search() ended
+2021-02-20 13:23:34.7371 INFO BibleVerseController Search()
+2021-02-20 13:23:42.2975 INFO BibleVerseController Search() started
+2021-02-20 13:23:42.2975 DEBUG Verse Testament => New
+2021-02-20 13:23:42.2975 DEBUG Verse Book => John
+2021-02-20 13:23:42.2975 DEBUG Verse Chapter => 3
+2021-02-20 13:23:42.2975 DEBUG Verse Verse => Null
+2021-02-20 13:23:42.2975 INFO VerseService SearchVerse() started
+2021-02-20 13:23:42.2975 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:23:42.2975 INFO BibleVerseDAO Search() started
+2021-02-20 13:23:42.2975 INFO BibleVerseDAO Search() complete
+2021-02-20 13:23:42.2975 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:23:42.3115 INFO VerseService SearchVerse() stopped
+2021-02-20 13:23:42.3115 INFO BibleVerseController Search() ended
+2021-02-20 13:24:46.2408 INFO BibleVerseController Search() started
+2021-02-20 13:24:46.2408 DEBUG Verse Testament => New
+2021-02-20 13:24:46.2408 DEBUG Verse Book => John
+2021-02-20 13:24:46.2408 DEBUG Verse Chapter => 3
+2021-02-20 13:24:46.2408 DEBUG Verse Verse => Null
+2021-02-20 13:24:46.2408 INFO VerseService SearchVerse() started
+2021-02-20 13:24:46.2408 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:24:46.2489 INFO BibleVerseDAO Search() started
+2021-02-20 13:24:46.2489 INFO BibleVerseDAO Search() complete
+2021-02-20 13:24:46.2489 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:24:46.2489 INFO VerseService SearchVerse() stopped
+2021-02-20 13:24:46.2489 INFO BibleVerseController Search() ended
+2021-02-20 13:25:03.4734 INFO BibleVerseController Search() started
+2021-02-20 13:25:03.4734 DEBUG Verse Testament => New
+2021-02-20 13:25:03.4734 DEBUG Verse Book => John
+2021-02-20 13:25:03.4734 DEBUG Verse Chapter => 3
+2021-02-20 13:25:03.4734 DEBUG Verse Verse => Null
+2021-02-20 13:25:03.4734 INFO VerseService SearchVerse() started
+2021-02-20 13:25:03.4734 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:25:03.4734 INFO BibleVerseDAO Search() started
+2021-02-20 13:25:03.4734 INFO BibleVerseDAO Search() complete
+2021-02-20 13:25:03.4834 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:25:03.4834 INFO VerseService SearchVerse() stopped
+2021-02-20 13:25:03.4834 INFO BibleVerseController Search() ended
+2021-02-20 13:26:07.6361 INFO BibleVerseController Search() started
+2021-02-20 13:26:07.6361 DEBUG Verse Testament => New
+2021-02-20 13:26:07.6361 DEBUG Verse Book => John
+2021-02-20 13:26:07.6396 DEBUG Verse Chapter => 3
+2021-02-20 13:26:07.6396 DEBUG Verse Verse => Null
+2021-02-20 13:26:07.6396 INFO VerseService SearchVerse() started
+2021-02-20 13:26:07.6396 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:26:07.6396 INFO BibleVerseDAO Search() started
+2021-02-20 13:26:07.6396 INFO BibleVerseDAO Search() complete
+2021-02-20 13:26:07.6396 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:26:07.6396 INFO VerseService SearchVerse() stopped
+2021-02-20 13:26:07.6396 INFO BibleVerseController Search() ended
+2021-02-20 13:26:38.3386 INFO BibleVerseController Search() started
+2021-02-20 13:26:38.3386 DEBUG Verse Testament => New
+2021-02-20 13:26:38.3386 DEBUG Verse Book => John
+2021-02-20 13:26:38.3431 DEBUG Verse Chapter => 3
+2021-02-20 13:26:38.3431 DEBUG Verse Verse => Null
+2021-02-20 13:26:38.3431 INFO VerseService SearchVerse() started
+2021-02-20 13:26:38.3431 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:26:38.3431 INFO BibleVerseDAO Search() started
+2021-02-20 13:26:38.3431 INFO BibleVerseDAO Search() complete
+2021-02-20 13:26:38.3431 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:26:38.3431 INFO VerseService SearchVerse() stopped
+2021-02-20 13:26:38.3431 INFO BibleVerseController Search() ended
+2021-02-20 13:26:57.7220 INFO BibleVerseController Search() started
+2021-02-20 13:26:57.7220 DEBUG Verse Testament => New
+2021-02-20 13:26:57.7220 DEBUG Verse Book => John
+2021-02-20 13:26:57.7220 DEBUG Verse Chapter => 3
+2021-02-20 13:26:57.7220 DEBUG Verse Verse => Null
+2021-02-20 13:26:57.7220 INFO VerseService SearchVerse() started
+2021-02-20 13:26:57.7220 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:26:57.7220 INFO BibleVerseDAO Search() started
+2021-02-20 13:26:57.7220 INFO BibleVerseDAO Search() complete
+2021-02-20 13:26:57.7330 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:26:57.7330 INFO VerseService SearchVerse() stopped
+2021-02-20 13:26:57.7330 INFO BibleVerseController Search() ended
+2021-02-20 13:27:47.4140 INFO BibleVerseController Search() started
+2021-02-20 13:27:47.4140 DEBUG Verse Testament => New
+2021-02-20 13:27:47.4140 DEBUG Verse Book => John
+2021-02-20 13:27:47.4140 DEBUG Verse Chapter => 3
+2021-02-20 13:27:47.4140 DEBUG Verse Verse => Null
+2021-02-20 13:27:47.4140 INFO VerseService SearchVerse() started
+2021-02-20 13:27:47.4215 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:27:47.4215 INFO BibleVerseDAO Search() started
+2021-02-20 13:27:47.4215 INFO BibleVerseDAO Search() complete
+2021-02-20 13:27:47.4215 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:27:47.4215 INFO VerseService SearchVerse() stopped
+2021-02-20 13:27:47.4215 INFO BibleVerseController Search() ended
+2021-02-20 13:28:06.1191 INFO BibleVerseController Search() started
+2021-02-20 13:28:06.1191 DEBUG Verse Testament => New
+2021-02-20 13:28:06.1191 DEBUG Verse Book => John
+2021-02-20 13:28:06.1191 DEBUG Verse Chapter => 3
+2021-02-20 13:28:06.1246 DEBUG Verse Verse => Null
+2021-02-20 13:28:06.1246 INFO VerseService SearchVerse() started
+2021-02-20 13:28:06.1246 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:28:06.1246 INFO BibleVerseDAO Search() started
+2021-02-20 13:28:06.1246 INFO BibleVerseDAO Search() complete
+2021-02-20 13:28:06.1246 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:28:06.1246 INFO VerseService SearchVerse() stopped
+2021-02-20 13:28:06.1246 INFO BibleVerseController Search() ended
+2021-02-20 13:28:16.9207 INFO BibleVerseController Search() started
+2021-02-20 13:28:16.9207 DEBUG Verse Testament => New
+2021-02-20 13:28:16.9207 DEBUG Verse Book => John
+2021-02-20 13:28:16.9207 DEBUG Verse Chapter => 3
+2021-02-20 13:28:16.9207 DEBUG Verse Verse => Null
+2021-02-20 13:28:16.9207 INFO VerseService SearchVerse() started
+2021-02-20 13:28:16.9207 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:28:16.9207 INFO BibleVerseDAO Search() started
+2021-02-20 13:28:16.9207 INFO BibleVerseDAO Search() complete
+2021-02-20 13:28:16.9207 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:28:16.9207 INFO VerseService SearchVerse() stopped
+2021-02-20 13:28:16.9207 INFO BibleVerseController Search() ended
+2021-02-20 13:28:30.5986 INFO BibleVerseController Search() started
+2021-02-20 13:28:30.5986 DEBUG Verse Testament => New
+2021-02-20 13:28:30.5986 DEBUG Verse Book => John
+2021-02-20 13:28:30.5986 DEBUG Verse Chapter => 3
+2021-02-20 13:28:30.5986 DEBUG Verse Verse => Null
+2021-02-20 13:28:30.5986 INFO VerseService SearchVerse() started
+2021-02-20 13:28:30.5986 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:28:30.6086 INFO BibleVerseDAO Search() started
+2021-02-20 13:28:30.6086 INFO BibleVerseDAO Search() complete
+2021-02-20 13:28:30.6086 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:28:30.6086 INFO VerseService SearchVerse() stopped
+2021-02-20 13:28:30.6086 INFO BibleVerseController Search() ended
+2021-02-20 13:28:39.8626 INFO BibleVerseController Search() started
+2021-02-20 13:28:39.8626 DEBUG Verse Testament => New
+2021-02-20 13:28:39.8626 DEBUG Verse Book => John
+2021-02-20 13:28:39.8626 DEBUG Verse Chapter => 3
+2021-02-20 13:28:39.8626 DEBUG Verse Verse => Null
+2021-02-20 13:28:39.8626 INFO VerseService SearchVerse() started
+2021-02-20 13:28:39.8626 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:28:39.8626 INFO BibleVerseDAO Search() started
+2021-02-20 13:28:39.8626 INFO BibleVerseDAO Search() complete
+2021-02-20 13:28:39.8736 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:28:39.8736 INFO VerseService SearchVerse() stopped
+2021-02-20 13:28:39.8736 INFO BibleVerseController Search() ended
+2021-02-20 13:28:48.0514 INFO BibleVerseController Search() started
+2021-02-20 13:28:48.0514 DEBUG Verse Testament => New
+2021-02-20 13:28:48.0514 DEBUG Verse Book => John
+2021-02-20 13:28:48.0514 DEBUG Verse Chapter => 3
+2021-02-20 13:28:48.0514 DEBUG Verse Verse => Null
+2021-02-20 13:28:48.0514 INFO VerseService SearchVerse() started
+2021-02-20 13:28:48.0514 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:28:48.0514 INFO BibleVerseDAO Search() started
+2021-02-20 13:28:48.0609 INFO BibleVerseDAO Search() complete
+2021-02-20 13:28:48.0609 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:28:48.0609 INFO VerseService SearchVerse() stopped
+2021-02-20 13:28:48.0609 INFO BibleVerseController Search() ended
+2021-02-20 13:29:20.1133 INFO BibleVerseController Search() started
+2021-02-20 13:29:20.1133 DEBUG Verse Testament => New
+2021-02-20 13:29:20.1133 DEBUG Verse Book => John
+2021-02-20 13:29:20.1133 DEBUG Verse Chapter => 3
+2021-02-20 13:29:20.1133 DEBUG Verse Verse => Null
+2021-02-20 13:29:20.1133 INFO VerseService SearchVerse() started
+2021-02-20 13:29:20.1133 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:29:20.1133 INFO BibleVerseDAO Search() started
+2021-02-20 13:29:20.1133 INFO BibleVerseDAO Search() complete
+2021-02-20 13:29:20.1238 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:29:20.1238 INFO VerseService SearchVerse() stopped
+2021-02-20 13:29:20.1238 INFO BibleVerseController Search() ended
+2021-02-20 13:29:44.6158 INFO BibleVerseController Search() started
+2021-02-20 13:29:44.6158 DEBUG Verse Testament => New
+2021-02-20 13:29:44.6158 DEBUG Verse Book => John
+2021-02-20 13:29:44.6158 DEBUG Verse Chapter => 3
+2021-02-20 13:29:44.6158 DEBUG Verse Verse => Null
+2021-02-20 13:29:44.6158 INFO VerseService SearchVerse() started
+2021-02-20 13:29:44.6238 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:29:44.6238 INFO BibleVerseDAO Search() started
+2021-02-20 13:29:44.6238 INFO BibleVerseDAO Search() complete
+2021-02-20 13:29:44.6238 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 13:29:44.6238 INFO VerseService SearchVerse() stopped
+2021-02-20 13:29:44.6238 INFO BibleVerseController Search() ended
+2021-02-20 13:29:47.6066 INFO BibleVerseController Search()
+2021-02-20 13:30:16.7227 INFO BibleVerseController Search()
+2021-02-20 13:30:19.9984 INFO BibleVerseController Search()
+2021-02-20 13:30:24.5518 INFO BibleVerseController Search() started
+2021-02-20 13:30:24.5518 DEBUG Verse Testament => New
+2021-02-20 13:30:24.5518 DEBUG Verse Book => John
+2021-02-20 13:30:24.5518 DEBUG Verse Chapter => 3
+2021-02-20 13:30:24.5518 DEBUG Verse Verse => 16
+2021-02-20 13:30:24.5518 INFO VerseService SearchVerse() started
+2021-02-20 13:30:24.5518 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:30:24.5518 INFO BibleVerseDAO Search() started
+2021-02-20 13:30:24.5612 INFO BibleVerseDAO Search() complete
+2021-02-20 13:30:24.5612 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:30:24.5612 INFO VerseService SearchVerse() stopped
+2021-02-20 13:30:24.5612 INFO BibleVerseController Search() ended
+2021-02-20 13:30:37.7684 INFO BibleVerseController Search() started
+2021-02-20 13:30:37.7684 DEBUG Verse Testament => New
+2021-02-20 13:30:37.7684 DEBUG Verse Book => John
+2021-02-20 13:30:37.7684 DEBUG Verse Chapter => 3
+2021-02-20 13:30:37.7684 DEBUG Verse Verse => 16
+2021-02-20 13:30:37.7684 INFO VerseService SearchVerse() started
+2021-02-20 13:30:37.7684 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:30:37.7684 INFO BibleVerseDAO Search() started
+2021-02-20 13:30:37.7684 INFO BibleVerseDAO Search() complete
+2021-02-20 13:30:37.7684 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:30:37.7804 INFO VerseService SearchVerse() stopped
+2021-02-20 13:30:37.7804 INFO BibleVerseController Search() ended
+2021-02-20 13:31:05.5007 INFO BibleVerseController Search() started
+2021-02-20 13:31:05.5007 DEBUG Verse Testament => New
+2021-02-20 13:31:05.5007 DEBUG Verse Book => John
+2021-02-20 13:31:05.5007 DEBUG Verse Chapter => 3
+2021-02-20 13:31:05.5007 DEBUG Verse Verse => 16
+2021-02-20 13:31:05.5007 INFO VerseService SearchVerse() started
+2021-02-20 13:31:05.5007 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:31:05.5007 INFO BibleVerseDAO Search() started
+2021-02-20 13:31:05.5007 INFO BibleVerseDAO Search() complete
+2021-02-20 13:31:05.5007 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:31:05.5007 INFO VerseService SearchVerse() stopped
+2021-02-20 13:31:05.5007 INFO BibleVerseController Search() ended
+2021-02-20 13:31:29.2741 INFO BibleVerseController Search() started
+2021-02-20 13:31:29.2741 DEBUG Verse Testament => New
+2021-02-20 13:31:29.2741 DEBUG Verse Book => John
+2021-02-20 13:31:29.2741 DEBUG Verse Chapter => 3
+2021-02-20 13:31:29.2801 DEBUG Verse Verse => 16
+2021-02-20 13:31:29.2801 INFO VerseService SearchVerse() started
+2021-02-20 13:31:29.2801 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:31:29.2801 INFO BibleVerseDAO Search() started
+2021-02-20 13:31:29.2801 INFO BibleVerseDAO Search() complete
+2021-02-20 13:31:29.2801 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:31:29.2801 INFO VerseService SearchVerse() stopped
+2021-02-20 13:31:29.2801 INFO BibleVerseController Search() ended
+2021-02-20 13:32:52.9774 INFO BibleVerseController Search() started
+2021-02-20 13:32:52.9774 DEBUG Verse Testament => New
+2021-02-20 13:32:52.9774 DEBUG Verse Book => John
+2021-02-20 13:32:52.9774 DEBUG Verse Chapter => 3
+2021-02-20 13:32:52.9834 DEBUG Verse Verse => 16
+2021-02-20 13:32:52.9834 INFO VerseService SearchVerse() started
+2021-02-20 13:32:52.9834 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:32:52.9834 INFO BibleVerseDAO Search() started
+2021-02-20 13:32:52.9834 INFO BibleVerseDAO Search() complete
+2021-02-20 13:32:52.9834 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:32:52.9834 INFO VerseService SearchVerse() stopped
+2021-02-20 13:32:52.9834 INFO BibleVerseController Search() ended
+2021-02-20 13:33:06.9330 INFO BibleVerseController Search() started
+2021-02-20 13:33:06.9330 DEBUG Verse Testament => New
+2021-02-20 13:33:06.9360 DEBUG Verse Book => John
+2021-02-20 13:33:06.9360 DEBUG Verse Chapter => 3
+2021-02-20 13:33:06.9360 DEBUG Verse Verse => 16
+2021-02-20 13:33:06.9360 INFO VerseService SearchVerse() started
+2021-02-20 13:33:06.9360 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:33:06.9360 INFO BibleVerseDAO Search() started
+2021-02-20 13:33:06.9360 INFO BibleVerseDAO Search() complete
+2021-02-20 13:33:06.9360 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:33:06.9360 INFO VerseService SearchVerse() stopped
+2021-02-20 13:33:06.9360 INFO BibleVerseController Search() ended
+2021-02-20 13:33:19.2980 INFO BibleVerseController Index() called
+2021-02-20 13:33:58.9225 INFO BibleVerseController Index() called
+2021-02-20 13:34:02.7767 INFO BibleVerseController Index() called
+2021-02-20 13:34:08.9060 INFO BibleVerseController Index() called
+2021-02-20 13:34:09.8591 INFO BibleVerseController Index() called
+2021-02-20 13:34:10.0756 INFO BibleVerseController Index() called
+2021-02-20 13:34:14.4730 INFO BibleVerseController Index() called
+2021-02-20 13:34:15.3548 INFO BibleVerseController Index() called
+2021-02-20 13:34:25.6998 INFO BibleVerseController Index() called
+2021-02-20 13:34:32.7704 INFO BibleVerseController Index() called
+2021-02-20 13:34:34.4627 INFO BibleVerseController Search()
+2021-02-20 13:34:39.0528 INFO BibleVerseController Search() started
+2021-02-20 13:34:39.0528 DEBUG Verse Testament => New
+2021-02-20 13:34:39.0528 DEBUG Verse Book => John
+2021-02-20 13:34:39.0528 DEBUG Verse Chapter => 3
+2021-02-20 13:34:39.0528 DEBUG Verse Verse => 16
+2021-02-20 13:34:39.0608 INFO VerseService SearchVerse() started
+2021-02-20 13:34:39.0608 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:34:39.0608 INFO BibleVerseDAO Search() started
+2021-02-20 13:34:39.0608 INFO BibleVerseDAO Search() complete
+2021-02-20 13:34:39.0608 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:34:39.0608 INFO VerseService SearchVerse() stopped
+2021-02-20 13:34:39.0608 INFO BibleVerseController Search() ended
+2021-02-20 13:34:40.9253 INFO BibleVerseController Index() called
+2021-02-20 13:34:44.6615 INFO BibleVerseController CreateVerse() started
+2021-02-20 13:34:44.6615 DEBUG Verse Testament => New
+2021-02-20 13:34:44.6615 DEBUG Verse Book => John
+2021-02-20 13:34:44.6615 DEBUG Verse Chapter => 3
+2021-02-20 13:34:44.6615 DEBUG Verse Verse => 16
+2021-02-20 13:34:44.6615 DEBUG Verse Text => dsf
+2021-02-20 13:34:44.6705 INFO VerseService AddVerse() started
+2021-02-20 13:34:44.6705 INFO VerseService AddVerse() Verifying the verse does not already exist
+2021-02-20 13:34:44.6705 INFO BibleVerseDAO Search() started
+2021-02-20 13:34:44.6705 INFO BibleVerseDAO Search() complete
+2021-02-20 13:34:44.6705 INFO VerseService AddVerse() verse was already in database
+2021-02-20 13:34:44.6705 INFO VerseService AddVerse() stopped
+2021-02-20 13:34:44.6705 INFO BibleVerseController CreateVerse() ended
+2021-02-20 13:34:47.9315 INFO BibleVerseController Search()
+2021-02-20 13:35:35.8285 INFO BibleVerseController Search()
+2021-02-20 13:35:41.5362 INFO BibleVerseController Search() started
+2021-02-20 13:35:41.5362 DEBUG Verse Testament => New
+2021-02-20 13:35:41.5362 DEBUG Verse Book => John
+2021-02-20 13:35:41.5362 DEBUG Verse Chapter => 3
+2021-02-20 13:35:41.5362 DEBUG Verse Verse => 16
+2021-02-20 13:35:41.5362 INFO VerseService SearchVerse() started
+2021-02-20 13:35:41.5362 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 13:35:41.5362 INFO BibleVerseDAO Search() started
+2021-02-20 13:35:41.5462 INFO BibleVerseDAO Search() complete
+2021-02-20 13:35:41.5462 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 13:35:41.5462 INFO VerseService SearchVerse() stopped
+2021-02-20 13:35:41.5462 INFO BibleVerseController Search() ended

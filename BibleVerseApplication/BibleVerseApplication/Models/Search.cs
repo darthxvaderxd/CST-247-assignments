@@ -1,5 +1,5 @@
 ﻿/**
- *        file: Models/BibleVerseController.cs
+ *        file: Models/Search.cs
  * description: controller for our applicaiton
  *      author: Richard Williamson
  *       notes: none
@@ -13,7 +13,7 @@ using System.Web;
 
 namespace BibleVerseApplication.Models
 {
-    public class BibleVerse
+    public class Search
     {
         [Required]
         public string Testament { get; set; }
@@ -24,11 +24,7 @@ namespace BibleVerseApplication.Models
         [Required]
         public string Chapter { get; set; }
 
-        [Required]
         public string Verse { get; set; }
-
-        [Required]
-        public string Text { get; set; }
 
         public enum Testaments
         {

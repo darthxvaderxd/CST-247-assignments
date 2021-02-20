@@ -1,0 +1,27 @@
+﻿@using BibleVerseApplication.Models
+
+@model List<BibleVerse>
+
+@{
+    ViewBag.Title = "ViewVerses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="verses">
+    @foreach (var verse in Model)
+    {
+        <div class="verse">
+            @Html.Label("Testament"): @verse.Testament
+            <br />
+            @Html.Label("Book"): @verse.Book
+            <br />
+            @Html.Label("Chapter"): @verse.Chapter
+            <br />
+            @Html.Label("Verse"): @verse.Verse
+            <br />
+            @Html.Label("Text"): @verse.Text
+            <br />
+        </div>
+        <hr />
+    }
+</div>

@@ -20,5 +20,69 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    max-width: 28rem;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.6rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ff0000;
+    background-color: #111111;
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #ff0000;
+    background-color: #000000;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.logo {
+    background-color: #222222;
+    font-size: 20pt;
+    color: #ff0000;
+}
+
+.verses {
+    margin-top: 3.2rem;
+    max-width: 1200px;
+    background-color: #cccccc;
+    padding: 1.6rem;
+    font-size: 14pt;
+    border-radius: 1.6rem;
+}
+
+.body-content {
+    margin-top: 3.2rem;
 }

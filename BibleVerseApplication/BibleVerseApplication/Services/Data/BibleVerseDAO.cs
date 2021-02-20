@@ -25,7 +25,7 @@ namespace BibleVerseApplication.Services.Data
             Logger.Info("BibleVerseDAO Search() started");
 
             List<BibleVerse> verses = new List<BibleVerse>();
-            string sql = "SELECT * FROM dbo.verse WHERE testament = @Testament AND book = @Book AND chapter = @Chapter ";
+            string sql = "SELECT * FROM dbo.verse WHERE testament like @Testament AND book like @Book AND chapter = @Chapter ";
 
             // verse is not required so if is zero we do not search on it
             if (Verse > 0)

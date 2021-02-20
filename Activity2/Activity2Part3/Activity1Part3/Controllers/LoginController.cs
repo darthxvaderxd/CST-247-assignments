@@ -10,7 +10,6 @@ namespace Activity1Part3.Controllers
 {
     public class LoginController : Controller
     {
-        SecurityService service = new SecurityService();
         // GET: Login
         public ActionResult Index()
         {
@@ -26,7 +25,10 @@ namespace Activity1Part3.Controllers
                 return View("Login");
             }
 
-            if (this.service.Authenticate(model))
+            SecurityService service = new SecurityService();
+            Boolean result = service.Authenticate(model);
+
+            if (result == true)
             {
                 return View("LoginPassed");
             }
