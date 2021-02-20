@@ -532,3 +532,50 @@ Parameter name: String
 2021-02-20 13:35:41.5462 INFO VerseService SearchVerse() 1 verses found
 2021-02-20 13:35:41.5462 INFO VerseService SearchVerse() stopped
 2021-02-20 13:35:41.5462 INFO BibleVerseController Search() ended
+2021-02-20 14:41:49.4165 INFO BibleVerseController Index() called
+2021-02-20 14:42:17.9722 INFO BibleVerseController Index() called
+2021-02-20 14:42:19.9039 INFO BibleVerseController Index() called
+2021-02-20 14:42:29.2794 INFO BibleVerseController Index() called
+2021-02-20 14:42:30.7151 INFO BibleVerseController Index() called
+2021-02-20 14:42:36.7820 INFO BibleVerseController Index() called
+2021-02-20 14:46:05.0555 INFO BibleVerseController CreateVerse() started
+2021-02-20 14:46:05.0555 DEBUG Verse Testament => Old
+2021-02-20 14:46:05.0555 DEBUG Verse Book => Genesis
+2021-02-20 14:46:05.0555 DEBUG Verse Chapter => 1
+2021-02-20 14:46:05.0610 DEBUG Verse Verse => 1
+2021-02-20 14:46:05.0610 DEBUG Verse Text => In the beginning God created the heavens and the earth. 2 Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters.
+2021-02-20 14:46:05.0610 INFO VerseService AddVerse() started
+2021-02-20 14:46:05.0610 INFO VerseService AddVerse() Verifying the verse does not already exist
+2021-02-20 14:46:05.0610 INFO BibleVerseDAO Search() started
+2021-02-20 14:46:06.7151 INFO BibleVerseDAO Search() complete
+2021-02-20 14:46:06.7171 INFO VerseService AddVerse() verse is not in database
+2021-02-20 14:46:06.7171 INFO BibleVerseDAO AddVerse() started
+2021-02-20 14:46:06.7171 INFO BibleVerseDAO AddVerse() complete
+2021-02-20 14:46:06.7171 INFO VerseService AddVerse() stopped
+2021-02-20 14:46:06.7171 INFO BibleVerseController CreateVerse() ended
+2021-02-20 14:46:47.8777 INFO BibleVerseController Search()
+2021-02-20 14:48:33.2808 INFO BibleVerseController Search() started
+2021-02-20 14:48:33.2808 DEBUG Verse Testament => New
+2021-02-20 14:48:33.2808 DEBUG Verse Book => John
+2021-02-20 14:48:33.2808 DEBUG Verse Chapter => 3
+2021-02-20 14:48:33.2808 DEBUG Verse Verse => Null
+2021-02-20 14:48:33.2808 INFO VerseService SearchVerse() started
+2021-02-20 14:48:33.2808 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 14:48:33.2968 INFO BibleVerseDAO Search() started
+2021-02-20 14:48:33.2968 INFO BibleVerseDAO Search() complete
+2021-02-20 14:48:33.2968 INFO VerseService SearchVerse() 3 verses found
+2021-02-20 14:48:33.2968 INFO VerseService SearchVerse() stopped
+2021-02-20 14:48:33.2968 INFO BibleVerseController Search() ended
+2021-02-20 14:58:59.0289 INFO BibleVerseController Search()
+2021-02-20 14:59:03.2859 INFO BibleVerseController Search() started
+2021-02-20 14:59:03.2859 DEBUG Verse Testament => New
+2021-02-20 14:59:03.2859 DEBUG Verse Book => John
+2021-02-20 14:59:03.2859 DEBUG Verse Chapter => 3
+2021-02-20 14:59:03.2859 DEBUG Verse Verse => 16
+2021-02-20 14:59:03.2859 INFO VerseService SearchVerse() started
+2021-02-20 14:59:03.2954 INFO VerseService SearchVerse() Performing lookup
+2021-02-20 14:59:03.2954 INFO BibleVerseDAO Search() started
+2021-02-20 14:59:04.9154 INFO BibleVerseDAO Search() complete
+2021-02-20 14:59:04.9154 INFO VerseService SearchVerse() 1 verses found
+2021-02-20 14:59:04.9154 INFO VerseService SearchVerse() stopped
+2021-02-20 14:59:04.9154 INFO BibleVerseController Search() ended

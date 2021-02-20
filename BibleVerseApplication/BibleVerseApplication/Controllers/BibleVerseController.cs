@@ -19,8 +19,8 @@ namespace BibleVerseApplication.Controllers
 {
     public class BibleVerseController : Controller
     {
-        ILogger Logger = Util.GetLogger();
-        VerseService service = new VerseService();
+        private ILogger Logger = Util.GetLogger();
+        private VerseService Service = new VerseService();
 
         // GET: BibleVerse
         public ActionResult Index()
@@ -52,7 +52,7 @@ namespace BibleVerseApplication.Controllers
             }
 
             // save the BibleVerse
-            service.AddVerse(bibleVerse);
+            Service.AddVerse(bibleVerse);
 
             Logger.Info("BibleVerseController CreateVerse() ended");
             return View("ViewVerse", bibleVerse);
@@ -88,7 +88,7 @@ namespace BibleVerseApplication.Controllers
             }
 
             // save the BibleVerse
-            List<BibleVerse> verses = service.SearchVerse(search);
+            List<BibleVerse> verses = Service.SearchVerse(search);
 
             Logger.Info("BibleVerseController Search() ended");
             return View("ViewVerses", verses);

@@ -15,7 +15,7 @@ namespace BibleVerseApplication.Services
 {
     public class LoggerService : ILoggerService
     {
-        public static Logger logger = LogManager.GetLogger("bibleVerseLoggerRules");
+        private static Logger logger = LogManager.GetLogger("bibleVerseLoggerRules");
         public Logger GetLogger()
         {
             return logger;

@@ -18,7 +18,7 @@ namespace BibleVerseApplication.Services.Business
     public class VerseService
     {
         ILogger Logger = Util.GetLogger();
-        BibleVerseDAO service = new BibleVerseDAO();
+        BibleVerseDAO Service = new BibleVerseDAO();
 
         [Obsolete]
         public void AddVerse(BibleVerse verse)
@@ -29,12 +29,12 @@ namespace BibleVerseApplication.Services.Business
             try
             {
                 Logger.Info("VerseService AddVerse() Verifying the verse does not already exist");
-                List<BibleVerse> versesCheck = service.Search(verse.Testament, verse.Book, int.Parse(verse.Chapter), int.Parse(verse.Verse));
+                List<BibleVerse> versesCheck = Service.Search(verse.Testament, verse.Book, int.Parse(verse.Chapter), int.Parse(verse.Verse));
 
                 if (versesCheck == null || versesCheck.Count == 0)
                 {
                     Logger.Info("VerseService AddVerse() verse is not in database");
-                    service.AddVerse(verse);
+                    Service.AddVerse(verse);
                 } else
                 {
                     Logger.Info("VerseService AddVerse() verse was already in database");
@@ -58,7 +58,7 @@ namespace BibleVerseApplication.Services.Business
                 Logger.Info("VerseService SearchVerse() Performing lookup");
 
                 int verseNo = verse.Verse != null ? int.Parse(verse.Verse) : 0;
-                verses = service.Search(verse.Testament, verse.Book, int.Parse(verse.Chapter), verseNo);
+                verses = Service.Search(verse.Testament, verse.Book, int.Parse(verse.Chapter), verseNo);
 
                 if (verses == null || verses.Count == 0)
                 {
