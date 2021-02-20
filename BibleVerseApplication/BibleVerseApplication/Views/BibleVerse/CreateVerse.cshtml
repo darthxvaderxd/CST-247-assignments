@@ -1,0 +1,20 @@
+﻿@model BibleVerseApplication.Models.BibleVerse
+
+@{
+    ViewBag.Title = "CreateVerse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="verse">
+    @Html.LabelFor(model => model.Testament): @Html.DisplayFor(model => model.Testament)
+    <br />
+    @Html.LabelFor(model => model.Book): @Html.DisplayFor(model => model.Book)
+    <br />
+    @Html.LabelFor(model => model.Chapter): @Html.DisplayFor(model => model.Chapter)
+    <br />
+    @Html.LabelFor(model => model.Verse): @Html.DisplayFor(model => model.Verse)
+    <br />
+    @Html.LabelFor(model => model.Text): @Html.DisplayFor(model => model.Text)
+    <br />
+</div>
+
